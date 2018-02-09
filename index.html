@@ -4,119 +4,133 @@
     <title>CONVOCA</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="iconmoon/style.css">
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="padding: 5px 15px;">
+<!-- inicio de creacion del nav -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"style="padding:10px;border-bottom:1px solid #fff;background:#000;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menucito" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
             <a class="" href="http://convoca.pe/"><img src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/convoca_logo.png"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left">
-                <li class="active"><a href="/">Inicio</a></li>
-                <li class=""><a href="/mapa">El mapa</a></li>
-                <li class=""><a href="/mapa">Ranking</a></li>
-                <li class=""><a href="/article">Artículo</a></li>
+        <div class="collapse navbar-collapse" id="menucito">
+            <ul class="nav navbar-nav navbar-left cent">
+                <li ><a href="/" >Inicio <i class="fas fa-home"></i></a></li>
+                <li class=""><a href="/mapa">El mapa <i class="fas fa-map-marker-alt"></i></a></li>
+                <li class=""><a href="/mapa/#ranking">Ranking <i class="fas fa-random"></i></a></li>
+                <li class=""><a href="/article">Artículo <i class="fas fa-file-archive"></i></a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right rede">
                 <li><a href="#inicio" id="men-t"><span class="icon-home"></span></a></li>
                 <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open('http://www.facebook.com/share.php?u='+dir2+'&amp;t='+tit2+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0" id="men-t"><span class="icon-facebook"></span></a></li>
                 <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.open('http://twitter.com/?status='+tit2+'%20'+dir+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0" id="men-t"><span class="icon-twitter"></span></a></li>
-                <li><a href="whatsapp://send?text=http://convoca.pe/especiales/elecciones/"><img src="104801-16.png"></a></li>
+                <li><a href="whatsapp://send?text=http://convoca.pe/especiales/elecciones/" id="men-t"  style="font-size: 20px;"><i class="fab fa-whatsapp"></i></a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
-<section id="banner-home">
+<!-- fin de nav-->
+<section id="banner-home " class="background-img">
     <div class="container-fluid">
-        <div class="row background-img">
-            <div class="col-md-3">
+        <div class="row ">
+            <div class="col-md-1 col-sm-1 col-xs-0">
 
             </div>
-            <div class="col-md-6 pad-banner">
-                <h1>TESTTESTTESTTESTTESTTESTTESTTEST </h1>
+            <div class="col-md-10 col-sm-10 col-xs-12 pad-banner">
+                <h1>ELECCIONES REGIONALES Y MUNICIPALES</h1>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-1 col-sm-1 col-xs-0">
 
             </div>
         </div>
     </div>
 </section>
-<footer class="container-fluid">
+<!--inicio del footer-->
+<footer class="container-fluid" style="padding-bottom:5px;border-top:1px solid #fff;">
     <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-3 col-sm-6 col-xs-12 log" style="margin-top:70px;">
             <div class="row">
                 <div class="col-sm-12">
                     <p class="text-center">
-                        <br><br class="hidden-xs"><br class="hidden-xs">
                         <a href="http://convoca.pe/">
-                            <img src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/logo_convoca_color.png?v1" alt="" class="img-responsive">
+                            <img class="logo-foot"src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/convoca_logo.png" alt="" class="img-responsive">
                         </a>
                     </p>
 
                 </div>
             </div>
-            <p class="text-center hidden-xs hidden-sm publicado">
+            <p class="text-center hidden-xs hidden-sm publicado" style="padding-left:10px;">
                 Convoca © 2017 Todos los derechos reservados
             </p>
         </div>
-        <div class="col-md-5 publicado">
+        <div class="col-xs-12 col-sm-6 col-md-1 men-fot" style="margin-top:70px;">
             <div class="row">
-                <div class="col-xs-8 col-xs-offset-2 col-sm-12">
-                    <p>
+                            <br class="hidden-xs">
+                            <font color="red">
+                            </font>
+                            <p class="menu">
+                            <font color="red">
+                                    <a href="http://convoca.pe/investigaciones" target="_blank"><font color="#EEA031">Investigaciones</font></a><br>
+                                    <a href="http://convoca.pe/agenda-propia" target="_blank"><font color="#EEA031">Agenda Propia</font></a><br>
+                                    <a href="http://convoca.pe/mapea" target="_blank"><font color="#EEA031">Apps</font></a><br>
+                                    <a href="http://convoca.pe/opiniones" target="_blank"><font color="#EEA031">Opinión</font></a><br>
+                                    <a href="http://convoca.pe/convoca-radio" target="_blank"><font color="#EEA031">Convoca Radio</font></a></font>
+                            </p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-sm-12 publicad"style="padding-left:60px;" >
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <p style="font-size:11px;">
                         <br class="hidden-xs">
-                        <span>Responsable del proyecto: Milagros Salazar. <br>
-                  Reporteros: Óscar Libón<br>
-                  Gonzalo Torrico, Claudia Martorellet. <br>
-                  Miguel Gutiérrez, Aramís Castro. <br>
-                  Diseño, ilustraciones y vídeos: Orlando Tapia <br>
-                  Podcast: Karla Velezomoro, Sonia Tello, Michelle Mogollón y Walter Dávila. <br>
-                  Desarrollo web: Benji Santos.
+                        <span>Milagros Salazar Herrera - Directora ejecutiva y periodística<br>
+                  Óscar Rudy Libón Basurto - Editor e investigador principal <br>
+                  Karla Paola Velezmoro Contreras - Directora de Convoca Radio y coordinadora de proyectos<br>
+                  Miguel Guitérrez - Investigador<br>
+                  Melanie Betetta  - Reportera y coordinadora de temas de transparencia <br>
+                  Raquel Virginia Tineo Ramos - Reportera y editora de audiencias<br>
+                  Rosa Alejandra Lopez Valencia - Reportera y redes sociales de la Escuela Convoca<br>
+                  Camila Araceli Alomia Zamudio - Reportera y producción multimedia<br>
+                  Sonia Tello - Reporteros de Convoca Radio<br>
+                  Walter Dávila - Reporteros de Convoca Radio<br>
+                  Benji Santos Quispe - Desarrollador y responsable del área de tecnología<br>
+                  José Anthony Atauqui Tito - Desarrollador<br>
+                  Elvis Rivera - Responsable del laboratorio de innovación<br>
+                  Maria Allasi Herrera- Administración y coordinadora de la Escuela Convoca<br>
+
                 </span>
-                        <br><br><br class="hidden-xs"><br class="hidden-xs">
+                        <br class="hidden-xs">
                         <span>
-                  Si tienes alguna denuncia o quieres contactarte<br> con nosotros búscanos en info@convoca.pe
+                  Si tienes alguna denuncia o quieres contactarte con nosotros búscanos en <span style="color:#EEA031;">info@convoca.pe</span>
                 </span>
-                        <br clear="visible-xs"><br clear="visible-xs">
                     </p>
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-5">
-            <div class="row">
-                <div class="col-xs-6 col-xs-offset-3 col-sm-12 col-sm-offset-0">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <br class="hidden-xs">
-                            <font color="red">
-                            </font><p class="menu"><font color="red">
-                            <a href="http://convoca.pe/investigaciones" target="_blank"><font color="#EEA031">Investigaciones</font></a><br>
-                            <a href="http://convoca.pe/agenda-propia" target="_blank"><font color="#EEA031">Agenda Propia</font></a><br>
-                            <a href="http://convoca.pe/mapea" target="_blank"><font color="#EEA031">Apps</font></a><br>
-                            <a href="http://convoca.pe/opiniones" target="_blank"><font color="#EEA031">Opinión</font></a><br>
-                            <a href="http://convoca.pe/convoca-radio" target="_blank"><font color="#EEA031">Convoca Radio</font></a></font>
-                        </p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>
-                                <br class="hidden-xs">
-                                Convoca es miembro de:
-                                <img src="http://www.convoca.pe/sites/all/themes/theme930/images/GIJN_150x150.jpg" alt="" class="img-responsive">
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-2 col-xs-12 col-sm-12 log-glo" style="margin-top:40px;">
+            <p style="font-size:10px;">
+                <br class="hidden-xs">
+                Convoca es miembro de:
+                <img src="http://www.convoca.pe/sites/all/themes/theme930/images/GIJN_150x150.jpg" alt="" class="img-responsive" style="width:70%;">
+            </p>
         </div>
     </div>
 </footer>
+<!--fin del footer-->
 </body>
 </html>
