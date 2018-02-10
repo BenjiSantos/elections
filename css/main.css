@@ -158,3 +158,38 @@ footer {
   font-weight: bold;
   color: #3f939e;
 }
+.tex-articulo{
+  margin-top:72px;
+}
+.tex-articulo article p{
+  box-sizing: border-box;
+    text-align: justify;
+    font-size: 16px;
+}
+.tex-articulo article h3{
+  font-weight: bold;
+}
+.ir-map{
+  text-decoration:none;
+  transition: all .6s ease;
+  font-size: 16px;
+}
+.ir-map:hover{
+  text-decoration: none;
+  transform: scale(1.6);
+}
+.img-elec{
+  height: 400px;
+width: 100%;
+border: 4px solid #fff;
+margin-bottom: 20px;
+}
+@media (max-width: 767px){
+  .tex-articulo h1{
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+  .img-elec{
+    height: auto !important;
+  }
+}
