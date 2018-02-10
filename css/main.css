@@ -61,11 +61,13 @@ body{
     background: url("../img/elecciones1.jpg");
     height: calc(100vh - 72px);
     margin-top: 72px;
+    position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
  #mapa {
+   width: 100%;
     margin-top: 72px;
     height: calc(100vh - 72px);
 }
@@ -74,9 +76,10 @@ body{
 background: rgba(0,0,0, .5);
 margin-top: 20px;
 border-radius: 4px;
+display: block;
 }
 .pad-banner h1{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   color: #fff;
   margin-top: 10px;
@@ -111,6 +114,15 @@ footer {
     display: inline-block;
     width: 50% !important;
   }
+  .pad-banner h1{
+    font-size: 20px;
+  }
+  .text-foton{
+    bottom: 30px !important;
+  }
+  .text-foton h1{
+    font-size: 15px !important;
+  }
 }
 @media (max-width: 991px){
   .log{
@@ -136,4 +148,13 @@ footer {
 }
 .div-iframe iframe{
   height: 100%;
+}
+.text-foton{
+  position: absolute;
+  bottom: 60px;
+}
+.text-foton h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: #3f939e;
 }
