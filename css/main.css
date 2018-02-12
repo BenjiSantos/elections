@@ -191,6 +191,27 @@ footer {
   .img-elec{
     height: auto !important;
   }
+  .sumilla{
+    position: initial !important;
+  }
+  .sumilla:before{
+    position: initial !important;
+  }
+  .sumilla:after{
+    position: initial !important;
+  }
+  .sumilla-2{
+    position: initial !important;
+  }
+  .sumilla-2:before{
+    position: initial !important;
+  }
+  .sumilla-2:after{
+    position: initial !important;
+  }
+  .tex-sum{
+    width: 100% !important;
+  }
 }
 p {
   font-size: 16px;
