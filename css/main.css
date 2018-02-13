@@ -112,7 +112,8 @@ footer {
   }
   .log-glo p img{
     display: inline-block;
-    width: 50% !important;
+    width: 65% !important;
+    margin-top: 20px;
   }
   .pad-banner h1{
     font-size: 20px;
@@ -140,8 +141,17 @@ footer {
   }
   .log-glo p img{
     display: inline-block;
-    width: 50% !important;
+    width: 50% ;
   }
+}
+.men-fot{
+  padding-top: 10px;
+  text-align: center;
+}
+.publicad{
+  padding-top: 20px;
+  text-align: center;
+
 }
 .div-iframe{
   height: 100%;
