@@ -143,6 +143,15 @@ footer {
     width: 50% !important;
   }
 }
+.men-fot{
+  padding-top: 10px;
+  text-align: center;
+}
+.publicad{
+  padding-top: 20px;
+  text-align: center;
+
+}
 .div-iframe{
   height: 100%;
 }
