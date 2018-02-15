@@ -82,41 +82,4 @@ a:hover{
 	.slid-web{
 		display: none ;
 	}
-	.leyenda{
-		display: none;
-	}
-	#mapa{
-		height: calc(100vh - 150px) !important;
-	}
-	.leyenda-mb{
-		display: block !important;
-	}
-}
-.leyenda{
-	width: 250px;
-	height: 150px;
-	background: rgba(255,255,255, .3);
-position: absolute;
-bottom: 10%;
-right: 5%;
-border-radius: 5px;
-padding: 8px 20px;;
-}
-.p-leye{
-	font-size: 12px;
-	color: #000;
-}
-.leyenda-mb{
-	display: none;
-	width: 100%;
-height: auto;
-padding: 5px;
-background: rgba(255, 254, 254, 0.9);
-border: 2px solid #337ab7;
-border-radius: 4px;
-padding-left: 15%;
-}
-.leyenda-mb > .p-leye{
-	font-size: 11px;
-	margin:0 0 0px;
 }
