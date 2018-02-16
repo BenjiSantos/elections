@@ -86,11 +86,19 @@ a:hover{
 		display: none;
 	}
 	#mapa{
-		height: calc(100vh - 150px) !important;
+		height: calc(100vh - 148px) !important;
 	}
 	.leyenda-mb{
 		display: block !important;
 	}
+	.img-fle	{
+		width: 80% !important;
+		height: auto;
+		top:30% !important;
+	}
+}
+#mapa{
+	transition: all .6s ease;
 }
 .leyenda{
 	width: 250px;
@@ -98,25 +106,30 @@ a:hover{
 	background: rgba(255,255,255, .3);
 	position: absolute;
 	bottom: 10%;
-	right: 60%;
+	right: 55%;
 	border-radius: 5px;
 	padding: 8px 20px;
 }
 .p-leye{
 	font-size: 12px;
-	color: #000;
+	color: #fff;
 }
 .leyenda-mb{
 	display: none;
 	width: 100%;
 height: auto;
 padding: 5px;
-background: rgba(255, 254, 254, 0.9);
-border: 2px solid #337ab7;
-border-radius: 4px;
+background: #171717;
 padding-left: 15%;
 }
 .leyenda-mb > .p-leye{
 	font-size: 11px;
 	margin:0 0 0px;
+}
+.img-fle{
+	position: absolute;
+	top: 20%;
+}
+#mapa:hover > .img-fle{
+	display: none;
 }
