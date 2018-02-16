@@ -91,15 +91,12 @@ a:hover{
 	.leyenda-mb{
 		display: block !important;
 	}
-	.img-fle	{
-		width: 80% !important;
-		height: auto;
-		top:30% !important;
+	.flo-mano{
+		top:28% !important;
+		left: 5% !important;
 	}
 }
-#mapa{
-	transition: all .6s ease;
-}
+
 .leyenda{
 	width: 250px;
 	height: 150px;
@@ -126,10 +123,14 @@ padding-left: 15%;
 	font-size: 11px;
 	margin:0 0 0px;
 }
-.img-fle{
-	position: absolute;
-	top: 20%;
+.mapote:hover > .flo-mano{
+	color: transparent !important;
 }
-#mapa:hover > .img-fle{
-	display: none;
+.flo-mano{
+	position: absolute;
+	top:18%;
+	font-size: 50px;
+	color: #fff;
+	left: 2%;
+	transition: all .6s ease;
 }
